@@ -1,68 +1,72 @@
+// JavaScript logic for Neuralink scenario
 const scenarios = [
     {
-        question: "Scenario 1: Secure Communications",
-        description: "You are working on implementing quantum computing to enhance secure communications. Quantum encryption has the potential to revolutionize data security. What approach will you take?",
+        question: "Scenario 1: User Data Privacy",
+        description: "Neuralink is preparing to release a new brain-computer interface. How do you ensure user data privacy?",
         options: [
             {
-                text: "Option 1: Focus on quantum encryption development.",
+                text: "Option 1: Implement strong encryption and strict data access controls",
                 points: 5,
-                impact: "Focusing on quantum encryption development strengthens data security."
+                impact: "Strong encryption and strict data access controls ensure user data privacy and trust."
             },
             {
-                text: "Option 2: Collaborate with experts to refine the encryption technology.",
-                points: 3,
-                impact: "Collaboration with experts accelerates encryption technology refinement."
-            },
-            {
-                text: "Option 3: Prioritize testing quantum communication networks.",
+                text: "Option 2: Collect minimal data but without encryption",
                 points: 2,
-                impact: "Prioritizing testing helps in identifying network vulnerabilities."
+                impact: "Minimal data collection without encryption raises concerns about user data security."
+            },
+            {
+                text: "Option 3: No data collection and no privacy measures",
+                points: 1,
+                impact: "Lack of data collection and privacy measures negatively impacts user experience."
             }
         ]
     },
     {
-        question: "Scenario 2: Quantum Computing Ethics",
-        description: "You are responsible for addressing ethical considerations related to quantum computing. Ethical concerns include potential misuse and consequences of quantum computing. What will you do?",
+        question: "Scenario 2: Collaborative Research",
+        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed?",
         options: [
             {
-                text: "Option 1: Establish ethical guidelines and policies.",
+                text: "Option 1: Partner with prestigious institutions for advanced research collaboration.",
                 points: 5,
-                impact: "Establishing guidelines and policies ensures responsible quantum computing."
+                impact: "Collaboration with prestigious institutions accelerates research and development."
             },
             {
-                text: "Option 2: Collaborate with ethicists and industry leaders to set ethical standards.",
-                points: 4,
-                impact: "Collaboration with experts strengthens ethical standards."
-            },
-            {
-                text: "Option 3: Conduct public awareness campaigns about quantum ethics.",
+                text: "Option 2: Opt for in-house research to maintain full control.",
                 points: 3,
-                impact: "Public awareness campaigns promote responsible quantum technology usage."
+                impact: "In-house research provides control but may limit external expertise."
+            },
+            {
+                text: "Option 3: Undecided and require more information.",
+                points: 2,
+                impact: "Undecided choices may lead to delays and missed opportunities."
             }
         ]
     },
     {
-        question: "Scenario 3: Quantum Computing Collaboration",
-        description: "You have the opportunity to partner with quantum computing experts from around the world. Collaboration can accelerate advancements but may also involve complex negotiations. What's your decision?",
+        question: "Scenario 3: Accessibility and Pricing",
+        description: "You plan to make Neuralink accessible to a broad audience. How do you address affordability?",
         options: [
             {
-                text: "Option 1: Collaborate with experts to drive quantum research and development.",
+                text: "Option 1: Offer affordable pricing and subsidies to reach a wider population.",
                 points: 5,
-                impact: "Collaboration accelerates research and development."
+                impact: "Affordable pricing and subsidies enhance accessibility to a diverse audience."
             },
             {
-                text: "Option 2: Form strategic alliances for specific projects.",
-                points: 4,
-                impact: "Strategic alliances allow for project-specific expertise."
+                text: "Option 2: Set a premium price for exclusivity.",
+                points: 2,
+                impact: "A premium price may limit accessibility but ensure exclusivity."
             },
             {
-                text: "Option 3: Continue with in-house development and research.",
-                points: 3,
-                impact: "In-house development maintains full control but may limit resources."
+                text: "Option 3: Not focused on affordability, prioritize innovation.",
+                points: 1,
+                impact: "Lack of affordability focus may limit market reach but spur innovation."
             }
         ]
     }
 ];
+
+// Rest of the code remains the same.
+
 
 const questionsContainer = document.getElementById("questions-container");
 const impactContainer = document.getElementById("impact-container");
