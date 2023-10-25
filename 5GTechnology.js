@@ -1,68 +1,72 @@
+// JavaScript logic for Neuralink scenario
+// JavaScript logic for Neuralink scenario
 const scenarios = [
     {
-        question: "Scenario 1: Inclusive 5G Connectivity",
-        description: "You are part of a 5G rollout project, aiming to provide fast and reliable connectivity. How do you ensure responsible innovation and diversity and inclusion?",
+        question: "Scenario 1: User Data Privacy",
+        description: "Neuralink is preparing to release a new brain-computer interface. How do you ensure user data privacy while adhering to responsible innovation KPIs?",
         options: [
             {
-                text: "Option 1: Implement policies and technologies to ensure equal access to 5G for all demographic groups, actively promoting diversity and inclusion in access.",
+                text: "Option 1: Implement strong encryption and strict data access controls, focusing on gender equality in project participation.",
                 points: 5,
-                impact: "Equal access policies promote diversity and inclusion in 5G connectivity."
+                impact: "Strong encryption and strict data access controls ensure user data privacy while promoting gender equality in research and management."
             },
             {
-                text: "Option 2: Collaborate with community organizations and government agencies to bridge the digital divide, prioritizing connectivity in underserved areas.",
-                points: 4,
-                impact: "Collaboration promotes responsible innovation and inclusiveness in 5G connectivity, addressing the digital divide."
+                text: "Option 2: Collect minimal data but without encryption, actively integrating gender dimensions in research and innovation outcomes.",
+                points: 3,
+                impact: "Minimal data collection without encryption is combined with the active integration of gender dimensions, promoting ethical innovation."
             },
             {
-                text: "Option 3: Focus solely on commercial deployment without addressing digital inclusion, potentially leaving marginalized communities behind.",
+                text: "Option 3: No data collection and no privacy measures. Establish organizational arrangements to eliminate gender-related barriers.",
                 points: 2,
-                impact: "Commercial deployment without inclusiveness efforts may lead to inequalities in 5G access."
+                impact: "Lack of data collection and privacy measures negatively impacts user experience but includes efforts to eliminate gender-related barriers."
             }
         ]
     },
     {
-        question: "Scenario 2: 5G Environmental Impact",
-        description: "Your 5G project has the potential to impact the environment due to infrastructure deployment. How do you ensure sustainability and environmental responsibility?",
+        question: "Scenario 2: Collaborative Research",
+        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed, considering responsible innovation KPIs?",
         options: [
             {
-                text: "Option 1: Actively incorporate environmental considerations in infrastructure design and deployment, working with environmental experts and engaging with environmental organizations.",
+                text: "Option 1: Partner with prestigious institutions for advanced research collaboration while engaging with diverse stakeholders.",
                 points: 5,
-                impact: "Environmental considerations, expert collaboration, and stakeholder engagement ensure responsible innovation and sustainability in 5G deployment."
+                impact: "Collaboration with prestigious institutions accelerates research and development while actively including diverse stakeholder viewpoints."
             },
             {
-                text: "Option 2: Focus on energy efficiency, reduce waste, and use eco-friendly materials in 5G infrastructure, collaborating with environmental organizations and inclusively involving stakeholders.",
-                points: 4,
-                impact: "Energy efficiency, waste reduction, and eco-friendly approaches promote sustainability and inclusiveness in 5G technology."
+                text: "Option 2: Opt for in-house research to maintain full control, regularly organizing group deliberation on societal and ethical aspects.",
+                points: 3,
+                impact: "In-house research provides control but may limit external expertise, with active internal engagement on societal and ethical dimensions."
             },
             {
-                text: "Option 3: Continue with infrastructure deployment without environmental considerations, potentially causing negative environmental impact.",
+                text: "Option 3: Undecided and require more information, applying risk identification and risk management strategies.",
                 points: 2,
-                impact: "Deployment without environmental considerations may lead to criticism regarding the environmental impact of 5G technology."
+                impact: "Undecided choices may lead to delays but involve risk management strategies for responsible innovation."
             }
         ]
     },
     {
-        question: "Scenario 3: Public Engagement and Ethical Acceptance",
-        description: "Your project aims to gain public acceptance for 5G technology. How do you approach openness, transparency, and ethical considerations?",
+        question: "Scenario 3: Accessibility and Pricing",
+        description: "You plan to make Neuralink accessible to a broad audience. How do you address affordability while considering environmental and social sustainability?",
         options: [
             {
-                text: "Option 1: Promote open dialogue with the public, collaborate with civil society groups, and actively address ethical concerns to ensure responsible innovation and societal acceptance of 5G.",
+                text: "Option 1: Offer affordable pricing and subsidies to reach a wider population, considering environmental and social sustainability.",
                 points: 5,
-                impact: "Open dialogue, collaboration, and ethical considerations promote responsible innovation and societal acceptance of 5G technology."
+                impact: "Affordable pricing and subsidies enhance accessibility while promoting environmental and social sustainability."
             },
             {
-                text: "Option 2: Use virtual platforms for public engagement, share information transparently, and engage with stakeholders to build trust and acceptance.",
-                points: 4,
-                impact: "Virtual engagement, transparency, and stakeholder involvement enhance openness and public acceptance of 5G technology."
+                text: "Option 2: Set a premium price for exclusivity. Actively communicate research results within stakeholder networks.",
+                points: 3,
+                impact: "A premium price may limit accessibility but ensures exclusivity, with active communication of results for societal benefits."
             },
             {
-                text: "Option 3: Keep deployment plans confidential, prioritizing innovation over public engagement, risking potential public resistance and acceptance issues.",
+                text: "Option 3: Not focused on affordability, prioritize innovation and resource use efficiency.",
                 points: 2,
-                impact: "Confidentiality may lead to public resistance and affect the societal acceptance of 5G technology, focusing on innovation with potential risks."
+                impact: "Lack of affordability focus may limit market reach but spurs innovation and resource use efficiency."
             }
         ]
     }
 ];
+
+
 
 
 const questionsContainer = document.getElementById("questions-container");
