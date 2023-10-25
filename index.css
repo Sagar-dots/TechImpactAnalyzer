@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+.title {
     color: #0078d4;
+    font-size: 36px;
+    margin-top: 20px;
 }
 
 #technology-carousel {
@@ -19,37 +21,38 @@ h1 {
 }
 
 .carousel-item {
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #0078d4;
+    border: 2px solid #005b9d;
     border-radius: 5px;
     margin: 0 10px;
-    transition: transform 0.3s;
     cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
 }
 
 .carousel-item h3 {
     margin: 0;
+    color: #fff;
 }
 
 .carousel-item.active {
     transform: scale(1.05);
-    background-color: #0078d4;
-    color: #fff;
+    background-color: #005b9d;
 }
 
-#start-game {
+.start-button {
     display: none;
-    margin: 20px auto;
-    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: #0078d4;
     color: #fff;
+    font-size: 20px;
     transition: background-color 0.3s;
 }
 
-#start-game:hover {
+.start-button:hover {
     background-color: #005b9d;
 }
