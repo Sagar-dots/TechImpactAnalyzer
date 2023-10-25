@@ -1,71 +1,72 @@
 // JavaScript logic for Neuralink scenario
+// JavaScript logic for Neuralink scenario
 const scenarios = [
     {
         question: "Scenario 1: User Data Privacy",
-        description: "Neuralink is preparing to release a new brain-computer interface. How do you ensure user data privacy?",
+        description: "Neuralink is preparing to release a new brain-computer interface. How do you ensure user data privacy while adhering to responsible innovation KPIs?",
         options: [
             {
-                text: "Option 1: Implement strong encryption and strict data access controls",
+                text: "Option 1: Implement strong encryption and strict data access controls, focusing on gender equality in project participation.",
                 points: 5,
-                impact: "Strong encryption and strict data access controls ensure user data privacy and trust."
+                impact: "Strong encryption and strict data access controls ensure user data privacy while promoting gender equality in research and management."
             },
             {
-                text: "Option 2: Collect minimal data but without encryption",
+                text: "Option 2: Collect minimal data but without encryption, actively integrating gender dimensions in research and innovation outcomes.",
+                points: 3,
+                impact: "Minimal data collection without encryption is combined with the active integration of gender dimensions, promoting ethical innovation."
+            },
+            {
+                text: "Option 3: No data collection and no privacy measures. Establish organizational arrangements to eliminate gender-related barriers.",
                 points: 2,
-                impact: "Minimal data collection without encryption raises concerns about user data security."
-            },
-            {
-                text: "Option 3: No data collection and no privacy measures",
-                points: 1,
-                impact: "Lack of data collection and privacy measures negatively impacts user experience."
+                impact: "Lack of data collection and privacy measures negatively impacts user experience but includes efforts to eliminate gender-related barriers."
             }
         ]
     },
     {
         question: "Scenario 2: Collaborative Research",
-        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed?",
+        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed, considering responsible innovation KPIs?",
         options: [
             {
-                text: "Option 1: Partner with prestigious institutions for advanced research collaboration.",
+                text: "Option 1: Partner with prestigious institutions for advanced research collaboration while engaging with diverse stakeholders.",
                 points: 5,
-                impact: "Collaboration with prestigious institutions accelerates research and development."
+                impact: "Collaboration with prestigious institutions accelerates research and development while actively including diverse stakeholder viewpoints."
             },
             {
-                text: "Option 2: Opt for in-house research to maintain full control.",
+                text: "Option 2: Opt for in-house research to maintain full control, regularly organizing group deliberation on societal and ethical aspects.",
                 points: 3,
-                impact: "In-house research provides control but may limit external expertise."
+                impact: "In-house research provides control but may limit external expertise, with active internal engagement on societal and ethical dimensions."
             },
             {
-                text: "Option 3: Undecided and require more information.",
+                text: "Option 3: Undecided and require more information, applying risk identification and risk management strategies.",
                 points: 2,
-                impact: "Undecided choices may lead to delays and missed opportunities."
+                impact: "Undecided choices may lead to delays but involve risk management strategies for responsible innovation."
             }
         ]
     },
     {
         question: "Scenario 3: Accessibility and Pricing",
-        description: "You plan to make Neuralink accessible to a broad audience. How do you address affordability?",
+        description: "You plan to make Neuralink accessible to a broad audience. How do you address affordability while considering environmental and social sustainability?",
         options: [
             {
-                text: "Option 1: Offer affordable pricing and subsidies to reach a wider population.",
+                text: "Option 1: Offer affordable pricing and subsidies to reach a wider population, considering environmental and social sustainability.",
                 points: 5,
-                impact: "Affordable pricing and subsidies enhance accessibility to a diverse audience."
+                impact: "Affordable pricing and subsidies enhance accessibility while promoting environmental and social sustainability."
             },
             {
-                text: "Option 2: Set a premium price for exclusivity.",
+                text: "Option 2: Set a premium price for exclusivity. Actively communicate research results within stakeholder networks.",
+                points: 3,
+                impact: "A premium price may limit accessibility but ensures exclusivity, with active communication of results for societal benefits."
+            },
+            {
+                text: "Option 3: Not focused on affordability, prioritize innovation and resource use efficiency.",
                 points: 2,
-                impact: "A premium price may limit accessibility but ensure exclusivity."
-            },
-            {
-                text: "Option 3: Not focused on affordability, prioritize innovation.",
-                points: 1,
-                impact: "Lack of affordability focus may limit market reach but spur innovation."
+                impact: "Lack of affordability focus may limit market reach but spurs innovation and resource use efficiency."
             }
         ]
     }
 ];
 
-// Rest of the code remains the same.
+
 
 
 const questionsContainer = document.getElementById("questions-container");
