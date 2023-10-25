@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="quantum.css">
-    <title>Impact Explorer: Quantum Computing Scenario</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Quantum Computing Scenario</h1>
-    <div id="questions-container">
-        <!-- Questions and options will be dynamically generated using JavaScript -->
+    <div class="header">
+        <h1>Quantum Computing Scenario</h1>
     </div>
-    <button id="end-game">Show Total Score</button>
-    <div id="total-points">Total Points: 0</div>
-    <a href="index.html">Go Back</a>
-    <script src="quantum-script.js"></script>
+    <div id="questions-container" class="container">
+        <!-- Questions and options will be added here -->
+    </div>
+    <div id="end-game" class="button-container">
+        <button id="show-score-button">Show Score</button>
+    </div>
+    <div id="impact-container" class="impact-container">
+        <!-- Impact messages will be displayed here -->
+    </div>
+    <button id="go-back-button" class="go-back-button">Go Back</button>
 </body>
+<script src="quantum_script.js"></script>
 </html>
