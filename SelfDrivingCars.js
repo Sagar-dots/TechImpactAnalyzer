@@ -1,65 +1,65 @@
 
 const scenarios = [
     {
-        question: "Scenario 1: Autonomous Vehicle Safety",
-        description: "You are developing autonomous vehicles with the aim of improving road safety. How do you ensure responsible innovation in terms of diversity and inclusion?",
+        question: "Scenario 1: Autonomous Vehicle Ethics",
+        description: "You are developing self-driving cars. Ethical considerations regarding accidents are critical. How do you ensure responsible innovation and ethical decision-making?",
         options: [
             {
-                text: "Option 1: Prioritize safety features that benefit all demographics, actively promoting diversity and inclusion in road safety.",
+                text: "Option 1: Implement AI algorithms that prioritize the safety of passengers and pedestrians in all situations, even if it means sacrificing the passengers' lives in extreme cases.",
                 points: 5,
-                impact: "Prioritizing safety features for all demographics promotes diversity and inclusion in road safety through autonomous vehicles."
+                impact: "Safety-first algorithms prioritize the well-being of all, aligning with ethical values."
             },
             {
-                text: "Option 2: Collaborate with organizations working on road safety in underserved communities, addressing safety concerns for marginalized groups.",
-                points: 4,
-                impact: "Collaboration with safety organizations promotes responsible innovation and inclusiveness in autonomous vehicle safety.",
+                text: "Option 2: Develop AI algorithms that protect passengers at all costs, even if it means causing harm to pedestrians, prioritizing passenger safety over all else.",
+                points: 3,
+                impact: "Passenger-centric algorithms may raise ethical concerns about the safety of others."
             },
             {
-                text: "Option 3: Focus solely on commercial deployment without addressing diversity and inclusion in safety, potentially leaving vulnerable communities at risk.",
+                text: "Option 3: Leave ethical decisions to the passengers by offering an option to choose the vehicle's behavior in case of an accident, potentially causing moral dilemmas and risks.",
                 points: 2,
-                impact: "Commercial deployment without inclusiveness efforts may lead to inequalities in autonomous vehicle safety."
+                impact: "Passenger choice may raise moral dilemmas and ethical complexities."
             }
         ]
     },
     {
-        question: "Scenario 2: Environmental Impact",
-        description: "Your self-driving car project has the potential to impact the environment. How do you ensure sustainability and environmental responsibility?",
+        question: "Scenario 2: Data Privacy and Security",
+        description: "Self-driving cars collect extensive data. How do you protect data privacy and ensure ethical data handling?",
         options: [
             {
-                text: "Option 1: Incorporate environmental considerations in vehicle design and operation, actively engaging with environmental experts and organizations.",
+                text: "Option 1: Implement strong encryption and data anonymization techniques to protect user data privacy, adhering to strict ethical standards.",
                 points: 5,
-                impact: "Environmental considerations and expert collaboration ensure responsible innovation and sustainability in self-driving car technology.",
+                impact: "Strong data protection measures align with ethical standards and safeguard user privacy."
             },
             {
-                text: "Option 2: Focus on energy efficiency, emissions reduction, and use of eco-friendly materials, working with environmental organizations to address environmental concerns.",
-                points: 4,
-                impact: "Energy efficiency, emissions reduction, and eco-friendly practices promote sustainability and environmental responsibility in self-driving cars.",
-            },
-            {
-                text: "Option 3: Proceed with vehicle deployment without considering environmental impact, potentially facing criticism for ecological consequences.",
+                text: "Option 2: Collect and store user data with minimal protection, potentially compromising user privacy and raising ethical concerns.",
                 points: 2,
-                impact: "Deployment without environmental considerations may lead to criticism regarding the environmental impact of self-driving cars."
+                impact: "Minimal data protection may raise ethical concerns about data privacy."
+            },
+            {
+                text: "Option 3: Share user data with third parties without consent, disregarding ethical principles and privacy norms.",
+                points: 1,
+                impact: "Sharing data without consent violates ethical standards and privacy norms."
             }
         ]
     },
     {
-        question: "Scenario 3: Public Engagement and Ethical Acceptance",
-        description: "Your project aims to gain public acceptance for self-driving cars. How do you approach openness, transparency, and ethical considerations?",
+        question: "Scenario 3: Job Displacement and Public Safety",
+        description: "Self-driving cars may lead to job displacement for human drivers. How do you address ethical concerns about job loss and public safety?",
         options: [
             {
-                text: "Option 1: Promote open dialogue with the public, collaborate with civil society groups, and actively address ethical concerns to ensure responsible innovation and societal acceptance of self-driving cars.",
+                text: "Option 1: Invest in retraining programs and provide support for displaced workers to mitigate job loss, prioritizing ethical responsibility and societal well-being.",
                 points: 5,
-                impact: "Open dialogue, collaboration, and ethical considerations promote responsible innovation and societal acceptance of self-driving cars.",
+                impact: "Retraining programs and support demonstrate ethical responsibility and address job displacement concerns."
             },
             {
-                text: "Option 2: Use virtual platforms for public engagement, share information transparently, and engage with stakeholders to build trust and acceptance.",
-                points: 4,
-                impact: "Virtual engagement, transparency, and stakeholder involvement enhance openness and public acceptance of self-driving cars.",
-            },
-            {
-                text: "Option 3: Keep deployment plans confidential, prioritizing innovation over public engagement, risking potential public resistance and acceptance issues.",
+                text: "Option 2: Continue self-driving car deployment without addressing job displacement, potentially causing public outrage and ethical concerns.",
                 points: 2,
-                impact: "Confidentiality may lead to public resistance and affect the societal acceptance of self-driving cars, focusing on innovation with potential risks."
+                impact: "Failure to address job displacement may lead to public outrage and ethical issues."
+            },
+            {
+                text: "Option 3: Prioritize automation and cost savings over job concerns, disregarding the ethical implications of job displacement.",
+                points: 1,
+                impact: "Prioritizing automation without addressing job displacement may raise ethical concerns."
             }
         ]
     }
