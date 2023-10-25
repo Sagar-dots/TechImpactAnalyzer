@@ -24,6 +24,6 @@ carouselItems.forEach((item) => {
 startButton.addEventListener('click', () => {
     // Redirect to the game page with the selected technology
     if (selectedTechnology) {
-        window.location.href = `game.html?tech=${selectedTechnology}`;
+        window.location.href = `${selectedTechnology}.html`;
     }
 });
