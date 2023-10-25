@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stakeholder Interaction Game for BCI Technology</title>
+    <style>
+        button {
+            display: block !important;
+            margin-bottom: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            border-bottom: 2px solid #50b3a2;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        #contentToToggle {
+            display: none;
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+    <script>
+    function toggleContent(elementId) {
+        var content = document.getElementById(elementId);
+        if (content.style.display === "none") {
+            content.style.display = "block";
+        } else {
+            content.style.display = "none";
+        }
+    }
+    </script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Stakeholder Interaction Game</h1>
+        <p>For BCI Technology Development</p>
+    </div>
+</header>
+
+<div class="container">
+    <div class="content">
+        <h2>Objective:</h2>
+        <p>The game aims to immerse participants in the world of BCI technology development, allowing them to take on different stakeholder roles, face challenges, make decisions, and experience the consequences of their choices.</p>
+
+        <h2>Setup:</h2>
+        <p>The game environment resembles a board game. Each player selects a stakeholder role (e.g., Neuroscientist, Investors, Competitors, etc.). Each role comes with a unique set of cards that represent their specific interests, concerns, and potential conflicts.</p>
+
+        <h2>Stakeholder Roles:</h2>
+
+        <button onclick="toggleContent('contentNeuralink')">Neuralink's CEOs and Founders</button>
+        <div id="contentNeuralink" style="display:none;">
+            They have the highest influence over the direction of the company and have a high stake in its success.
+        </div>
+
+        <button onclick="toggleContent('contentInvestors')">Investors</button>
+        <div id="contentInvestors" style="display:none;">
+            They have put in funds and their interests align with the success of the project.
+        </div>
+
+
+        <button onclick="toggleContent('contentRegulatoryBodies')">Regulatory Bodies</button>
+        <div id="contentRegulatoryBodies" style="display:none;">
+            They have significant influence over the approval and use of the technology, but their direct stake in the financial success of Neuralink is lower.
+        </div>
+
+        <button onclick="toggleContent('contentPartnersAndSuppliers')">Partners and Suppliers</button>
+        <div id="contentPartnersAndSuppliers" style="display:none;">
+            Provide necessary technology or services to Neuralink but may not have a direct financial stake.
+        </div>
+
+        <button onclick="toggleContent('contentPatientsAndBCIUsers')">Patients and BCI Users</button>
+        <div id="contentPatientsAndBCIUsers" style="display:none;">
+            They may directly benefit or be impacted by the technology, but their individual influence over company decisions might be limited.
+        </div>
+
+        <button onclick="toggleContent('contentMedicalExperts')">Medical Experts and Neuroscientists</button>
+        <div id="contentMedicalExperts" style="display:none;">
+            They provide a medical and scientific perspective to Neuralink's technology.
+        </div>
+
+        <button onclick="toggleContent('contentCompetitors')">Competitors</button>
+        <div id="contentCompetitors" style="display:none;">
+            Even though their primary focus might be their own interests, they have a keen interest in the dynamics and successes of Neurallink.
+        </div>
+
+        <h2>Gameplay:</h2>
+        <ul>
+            <li><strong>Scenario Cards:</strong> At the start of each round, a scenario card is drawn. This card describes a situation or challenge related to BCI technology development.</li>
+            <li><strong>Decision Time:</strong> Players use their role-specific cards to decide how they would react to the scenario based on their stakeholder's interests and concerns. They must also verbalize their reasoning.</li>
+            <li><strong>Negotiation Phase:</strong> Players discuss and negotiate to find a solution that would satisfy the majority of stakeholders. They can use their cards to persuade, compromise, or form alliances.</li>
+        </ul>
+
+        <h2>Scenarios:</h2>
+
+        <button onclick="toggleContent('contentDataBreachConcern')">Data Breach Concern</button>
+        <div id="contentDataBreachConcern" style="display:none;">
+            News reports suggest that a popular BCI product has vulnerabilities that could expose users' brain data to breaches.
+        </div>
+
+        <button onclick="toggleContent('contentEthicalDilemma')">Ethical Dilemma with AI Integration</button>
+        <div id="contentEthicalDilemma" style="display:none;">
+            A new technology allows BCI devices to integrate with AI, allowing users to "think" commands rather than physically issuing them. However, this brings up privacy and ethical concerns as the AI can "learn" from a user's thought patterns.
+        </div>
+
+
+        <button onclick="toggleContent('contentCostVsAccessibility')">Cost vs. Accessibility</button>
+        <div id="contentCostVsAccessibility" style="display:none;">
+            The latest BCI technology offers unprecedented accuracy and features, but it comes at a very high cost, making it unaffordable for many.
+        </div>
+
+        <button onclick="toggleContent('contentCulturalImplications')">Cultural and Social Implications</button>
+        <div id="contentCulturalImplications" style="display:none;">
+            BCI technology is met with skepticism in certain cultures and communities as it's seen as "intervening" with the human brain and consciousness.
+        </div>
+
+        <h2>Game Cards:</h2>
+        <p>The following link contains the roles and scenarios</p>
+        <a href="Toolkit%20Game%20card.pdf">Toolkit Game Cards </a>
+
+
+
+        <h2>Request:</h2>
+        <p>After finishing roleplay games, the players should fill the following diagram.</p>
+        <img src="stakeholder.jpg" alt="Stakeholder Diagram" width="500">
+
+    </div>
+</div>
+</body>
+</html>
