@@ -1,7 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-image: url('background-img.jpg'); /* Add your image file path here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: to keep the background fixed while scrolling */
+    background-color: #f2f2f2; /* Fallback background color */
     margin: 0;
     padding: 0;
 }
