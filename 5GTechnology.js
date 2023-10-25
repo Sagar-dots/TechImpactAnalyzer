@@ -6,17 +6,17 @@ const scenarios = [
             {
                 text: "Option 1: Implement strict privacy measures and encryption to protect user data, with transparent policies and collaboration with data security experts.",
                 points: 5,
-                impact: "Stringent privacy measures and encryption protect user data, ensuring responsible innovation and data security."
+                impact: "Scenario 1 Option 1:Stringent privacy measures and encryption protect user data, ensuring responsible innovation and data security."
             },
             {
                 text: "Option 2: Prioritize data speed and connectivity over privacy, collecting data without encryption, risking potential privacy breaches and public trust issues.",
                 points: 3,
-                impact: "Prioritizing data speed over privacy may lead to data security concerns and a lack of responsible innovation."
+                impact: "Scenario 2 Option 2:Prioritizing data speed over privacy may lead to data security concerns and a lack of responsible innovation."
             },
             {
                 text: "Option 3: Collect user data without any privacy measures, focusing solely on innovation but risking data breaches and ethical dilemmas.",
                 points: 2,
-                impact: "Lack of privacy measures poses ethical dilemmas and may hinder responsible innovation."
+                impact: "Scenario 3 Option 3:Lack of privacy measures poses ethical dilemmas and may hinder responsible innovation."
             }
         ]
     },
@@ -27,17 +27,17 @@ const scenarios = [
             {
                 text: "Option 1: Actively research and consider the potential health and environmental impact, collaborating with experts and involving diverse stakeholders.",
                 points: 5,
-                impact: "Research, expert collaboration, and diverse stakeholder involvement ensure safety, sustainability, and inclusiveness in 5G innovation."
+                impact: "Scenario 2 Option 1:Research, expert collaboration, and diverse stakeholder involvement ensure safety, sustainability, and inclusiveness in 5G innovation."
             },
             {
                 text: "Option 2: Prioritize rapid deployment of 5G technology without assessing its health and environmental effects, potentially causing public health and environmental concerns.",
                 points: 3,
-                impact: "Rapid deployment without assessment may lead to health and environmental concerns, affecting responsible innovation."
+                impact: "Scenario 2 Option 2:Rapid deployment without assessment may lead to health and environmental concerns, affecting responsible innovation."
             },
             {
                 text: "Option 3: Continue with the project without addressing health and environmental concerns, focusing on innovation but risking negative consequences.",
                 points: 2,
-                impact: "Innovation may thrive, but the project might be criticized for a lack of safety and sustainability."
+                impact: "Scenario 2 Option 3:Innovation may thrive, but the project might be criticized for a lack of safety and sustainability."
             }
         ]
     },
@@ -48,17 +48,17 @@ const scenarios = [
             {
                 text: "Option 1: Collaborate with local communities, governments, and NGOs to ensure affordable and accessible 5G access, actively engaging with underserved populations.",
                 points: 5,
-                impact: "Collaboration, affordability, and engagement with underserved communities ensure inclusivity and accessibility in 5G innovation."
+                impact: "Scenario 3 Option 1:Collaboration, affordability, and engagement with underserved communities ensure inclusivity and accessibility in 5G innovation."
             },
             {
                 text: "Option 2: Focus on profitability, providing 5G access to areas with higher economic potential, potentially excluding underserved populations.",
                 points: 3,
-                impact: "Profit-focused deployment may lead to exclusion and lack of inclusivity, affecting responsible innovation."
+                impact: "Scenario 3 Option 2:Profit-focused deployment may lead to exclusion and lack of inclusivity, affecting responsible innovation."
             },
             {
                 text: "Option 3: Ignore inclusivity concerns, focusing solely on innovation and profitability, potentially facing criticism and ethical dilemmas.",
                 points: 2,
-                impact: "Lack of inclusivity measures poses ethical dilemmas and may hinder responsible innovation."
+                impact: "Scenario 3 Option 3:Lack of inclusivity measures poses ethical dilemmas and may hinder responsible innovation."
             }
         ]
     }
