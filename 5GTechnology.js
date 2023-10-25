@@ -11,12 +11,12 @@ const scenarios = [
             {
                 text: "Option 2: Prioritize data speed and connectivity over privacy, collecting data without encryption, risking potential privacy breaches and public trust issues.",
                 points: 3,
-                impact: "Scenario 2 Option 2:Prioritizing data speed over privacy may lead to data security concerns and a lack of responsible innovation."
+                impact: "Scenario 1 Option 2:Prioritizing data speed over privacy may lead to data security concerns and a lack of responsible innovation."
             },
             {
                 text: "Option 3: Collect user data without any privacy measures, focusing solely on innovation but risking data breaches and ethical dilemmas.",
                 points: 2,
-                impact: "Scenario 3 Option 3:Lack of privacy measures poses ethical dilemmas and may hinder responsible innovation."
+                impact: "Scenario 1 Option 3:Lack of privacy measures poses ethical dilemmas and may hinder responsible innovation."
             }
         ]
     },
