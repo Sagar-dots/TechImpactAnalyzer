@@ -1,64 +1,64 @@
 const scenarios = [
     {
-        question: "Scenario 1: Inclusive 5G Connectivity",
-        description: "You are part of a 5G rollout project, aiming to provide fast and reliable connectivity. How do you ensure responsible innovation and diversity and inclusion?",
+        question: "Scenario 1: Privacy and Data Security",
+        description: "You are developing 5G technology that will significantly enhance data speed and connectivity. How do you ensure responsible innovation while addressing privacy and data security?",
         options: [
             {
-                text: "Option 1: Implement policies and technologies to ensure equal access to 5G for all demographic groups, actively promoting diversity and inclusion in access.",
+                text: "Option 1: Implement strict privacy measures and encryption to protect user data, with transparent policies and collaboration with data security experts.",
                 points: 5,
-                impact: "Equal access policies promote diversity and inclusion in 5G connectivity."
+                impact: "Stringent privacy measures and encryption protect user data, ensuring responsible innovation and data security."
             },
             {
-                text: "Option 2: Collaborate with community organizations and government agencies to bridge the digital divide, prioritizing connectivity in underserved areas.",
-                points: 4,
-                impact: "Collaboration promotes responsible innovation and inclusiveness in 5G connectivity, addressing the digital divide."
+                text: "Option 2: Prioritize data speed and connectivity over privacy, collecting data without encryption, risking potential privacy breaches and public trust issues.",
+                points: 3,
+                impact: "Prioritizing data speed over privacy may lead to data security concerns and a lack of responsible innovation."
             },
             {
-                text: "Option 3: Focus solely on commercial deployment without addressing digital inclusion, potentially leaving marginalized communities behind.",
+                text: "Option 3: Collect user data without any privacy measures, focusing solely on innovation but risking data breaches and ethical dilemmas.",
                 points: 2,
-                impact: "Commercial deployment without inclusiveness efforts may lead to inequalities in 5G access."
+                impact: "Lack of privacy measures poses ethical dilemmas and may hinder responsible innovation."
             }
         ]
     },
     {
-        question: "Scenario 2: 5G Environmental Impact",
-        description: "Your 5G project has the potential to impact the environment due to infrastructure deployment. How do you ensure sustainability and environmental responsibility?",
+        question: "Scenario 2: Public Health and Environmental Impact",
+        description: "5G technology may have implications for public health and the environment. How do you ensure safety, sustainability, and inclusiveness?",
         options: [
             {
-                text: "Option 1: Actively incorporate environmental considerations in infrastructure design and deployment, working with environmental experts and engaging with environmental organizations.",
+                text: "Option 1: Actively research and consider the potential health and environmental impact, collaborating with experts and involving diverse stakeholders.",
                 points: 5,
-                impact: "Environmental considerations, expert collaboration, and stakeholder engagement ensure responsible innovation and sustainability in 5G deployment."
+                impact: "Research, expert collaboration, and diverse stakeholder involvement ensure safety, sustainability, and inclusiveness in 5G innovation."
             },
             {
-                text: "Option 2: Focus on energy efficiency, reduce waste, and use eco-friendly materials in 5G infrastructure, collaborating with environmental organizations and inclusively involving stakeholders.",
-                points: 4,
-                impact: "Energy efficiency, waste reduction, and eco-friendly approaches promote sustainability and inclusiveness in 5G technology."
+                text: "Option 2: Prioritize rapid deployment of 5G technology without assessing its health and environmental effects, potentially causing public health and environmental concerns.",
+                points: 3,
+                impact: "Rapid deployment without assessment may lead to health and environmental concerns, affecting responsible innovation."
             },
             {
-                text: "Option 3: Continue with infrastructure deployment without environmental considerations, potentially causing negative environmental impact.",
+                text: "Option 3: Continue with the project without addressing health and environmental concerns, focusing on innovation but risking negative consequences.",
                 points: 2,
-                impact: "Deployment without environmental considerations may lead to criticism regarding the environmental impact of 5G technology."
+                impact: "Innovation may thrive, but the project might be criticized for a lack of safety and sustainability."
             }
         ]
     },
     {
-        question: "Scenario 3: Public Engagement and Ethical Acceptance",
-        description: "Your project aims to gain public acceptance for 5G technology. How do you approach openness, transparency, and ethical considerations?",
+        question: "Scenario 3: Digital Inclusivity and Accessibility",
+        description: "Your 5G project aims to provide high-speed internet access to underserved areas. How do you approach inclusivity and accessibility, while ensuring openness and transparency?",
         options: [
             {
-                text: "Option 1: Promote open dialogue with the public, collaborate with civil society groups, and actively address ethical concerns to ensure responsible innovation and societal acceptance of 5G.",
+                text: "Option 1: Collaborate with local communities, governments, and NGOs to ensure affordable and accessible 5G access, actively engaging with underserved populations.",
                 points: 5,
-                impact: "Open dialogue, collaboration, and ethical considerations promote responsible innovation and societal acceptance of 5G technology."
+                impact: "Collaboration, affordability, and engagement with underserved communities ensure inclusivity and accessibility in 5G innovation."
             },
             {
-                text: "Option 2: Use virtual platforms for public engagement, share information transparently, and engage with stakeholders to build trust and acceptance.",
-                points: 4,
-                impact: "Virtual engagement, transparency, and stakeholder involvement enhance openness and public acceptance of 5G technology."
+                text: "Option 2: Focus on profitability, providing 5G access to areas with higher economic potential, potentially excluding underserved populations.",
+                points: 3,
+                impact: "Profit-focused deployment may lead to exclusion and lack of inclusivity, affecting responsible innovation."
             },
             {
-                text: "Option 3: Keep deployment plans confidential, prioritizing innovation over public engagement, risking potential public resistance and acceptance issues.",
+                text: "Option 3: Ignore inclusivity concerns, focusing solely on innovation and profitability, potentially facing criticism and ethical dilemmas.",
                 points: 2,
-                impact: "Confidentiality may lead to public resistance and affect the societal acceptance of 5G technology, focusing on innovation with potential risks."
+                impact: "Lack of inclusivity measures poses ethical dilemmas and may hinder responsible innovation."
             }
         ]
     }
