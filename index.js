@@ -11,6 +11,33 @@ function selectTechnology(tech) {
     startButton.textContent = `Start Game for ${tech}`;
 }
 
+const carousel = document.querySelector('.carousel');
+const carouselItems = document.querySelectorAll('.carousel-item');
+const startButton = document.getElementById('start-game');
+
+let selectedTechnology = null;
+
+function selectTechnology(tech) {
+    selectedTechnology = tech;
+    startButton.style.display = 'block';
+    startButton.textContent = `Start Game for ${tech}`;
+}
+
+carouselItems.forEach((item) => {
+    item.addEventListener('click', () => {
+        carouselItems.forEach((el) => el.classList.remove('active'));
+        item.classList.add('active');
+        selectTechnology(item.getAttribute('data-tech'));
+    });
+});
+
+startButton.addEventListener('click', () => {
+    if (selectedTechnology) {
+        window.location.href = `game.html?tech=${selectedTechnology}`;
+    }
+});
+
+
 // Event listener for carousel item selection
 carouselItems.forEach((item) => {
     item.addEventListener('click', () => {
