@@ -6,14 +6,14 @@ const scenarios = [
         description: " Imagine that you are a influential part of Neuralink Project's Developement. Neuralink is preparing to release a new brain-computer interface. How do you think you can ensure user data privacy while adhering to responsible innovation KPIs?",
         options: [
             {
-                text: "Option 1: Implement strong encryption and strict data access controls, focusing on gender equality in project participation.",
+                text: "Option 1: Implement strong encryption and strict data access controls, focusing on strcit policies against breaches in project participation.",
                 points: 5,
-                impact: "Scenario 1, Option 1: I would impose strong encryption and strict data access controls ensure user data privacy while promoting gender equality in research and management."
+                impact: "Scenario 1, Option 1: I would impose strong encryption and strict data access controls ensure user data privacy while promoting policies in research and management."
             },
             {
-                text: "Option 2: Collect minimal data but without encryption, actively integrating gender dimensions in research and innovation outcomes.",
+                text: "Option 2:  I would collect minimal data but without encryption, actively integrating gender dimensions in research and innovation outcomes.",
                 points: 3,
-                impact: "Scenario 1 Option 2: I would collect minimal data  without encryption combined with the active integration of gender dimensions, promoting ethical innovation."
+                impact: "Scenario 1 Option 2: Minimal data  without encryption combined with the active integration of gender dimensions, promoting ethical innovation."
             },
             {
                 text: "Option 3:  I think no data collection and no privacy measures is good enough for now.",
@@ -27,22 +27,27 @@ const scenarios = [
         description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed with the gender and ethnic insclusions in these instutions?",
         options: [
             {
-                text: "Option 1: Partner with prestigious institutions for advanced research collaboration while engaging with diverse stakeholders.",
+        question: "Scenario 1: Collaborative Brain-Computer Interface (BCI) Research",
+        description: "Neuralink is embarking on a groundbreaking project to develop advanced Brain-Computer Interfaces (BCIs) for various applications. How do you approach collaborative research to ensure inclusivity and ethical standards?",
+        options: [
+            {
+                text: "Option 1: Collaborate with leading neuroscientists and research institutions worldwide, actively promoting gender and ethnic diversity within the research teams. Ensure research protocols adhere to strict ethical guidelines.",
                 points: 5,
-                impact: "Scenario 2 Option 1:Collaboration with prestigious institutions accelerates research and development while actively including diverse stakeholder viewpoints."
+                impact: "Collaborating with diverse experts and promoting inclusivity strengthens research excellence while upholding ethical standards."
             },
             {
-                text: "Option 2: I would Opt for themselves(Let the instiution decide themselves) to maintain full control, regularly organizing group deliberation on societal and ethical aspects.",
+                text: "Option 2: Allow each research institution to decide on their collaboration approach, emphasizing the importance of inclusivity and ethical considerations in the research process.",
+                points: 4,
+                impact: "Option 2: Granting autonomy to institutions respects their choices, emphasizing inclusivity and ethics."
+            },
+            {
+                text: "Option 3: Maintain a closed-door approach with limited collaborations, prioritizing internal expertise, and regularly organizing group deliberations on societal, gender, and ethical aspects.",
                 points: 3,
-                impact: "Scenario 2 Option 2:In-house research provides control but may limit external expertise, with active internal engagement on societal and ethical dimensions."
-            },
-            {
-                text: "Option 3: It is better to leave it undecided as it requires more information than applying risk identification and risk management strategies.",
-                points: 2,
-                impact: "Scenario 2 Option 3:Undecided choices may lead to delays but involve risk management strategies for responsible innovation."
+                impact: "Option 3: Limited external collaboration maintains control while internal deliberations focus on societal, gender, and ethical dimensions."
             }
         ]
     },
+        
     {
         question: "Scenario 3: Accessibility and Pricing",
         description: "You plan to make Neuralink accessible to a broad audience. How do you address affordability while considering environmental and social sustainability?",
