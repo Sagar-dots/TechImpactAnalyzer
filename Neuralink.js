@@ -3,43 +3,43 @@
 const scenarios = [
     {
         question: "Scenario 1: User Data Privacy",
-        description: "Neuralink is preparing to release a new brain-computer interface. How do you ensure user data privacy while adhering to responsible innovation KPIs?",
+        description: " Imagine that you are a influential part of Neuralink Project's Developement. Neuralink is preparing to release a new brain-computer interface. How do you think you can ensure user data privacy while adhering to responsible innovation KPIs?",
         options: [
             {
                 text: "Option 1: Implement strong encryption and strict data access controls, focusing on gender equality in project participation.",
                 points: 5,
-                impact: "Strong encryption and strict data access controls ensure user data privacy while promoting gender equality in research and management."
+                impact: "Scenario 1, Option 1: I would impose strong encryption and strict data access controls ensure user data privacy while promoting gender equality in research and management."
             },
             {
                 text: "Option 2: Collect minimal data but without encryption, actively integrating gender dimensions in research and innovation outcomes.",
                 points: 3,
-                impact: "Minimal data collection without encryption is combined with the active integration of gender dimensions, promoting ethical innovation."
+                impact: "Scenario 1 Option 2: I would collect minimal data  without encryption combined with the active integration of gender dimensions, promoting ethical innovation."
             },
             {
-                text: "Option 3: No data collection and no privacy measures. Establish organizational arrangements to eliminate gender-related barriers.",
+                text: "Option 3:  I think no data collection and no privacy measures is good enough for now.",
                 points: 2,
-                impact: "Lack of data collection and privacy measures negatively impacts user experience but includes efforts to eliminate gender-related barriers."
+                impact: "Scenario 1 Option 3:Lack of data collection and privacy measures negatively impacts user experience but includes efforts to eliminate gender-related barriers."
             }
         ]
     },
     {
         question: "Scenario 2: Collaborative Research",
-        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed, considering responsible innovation KPIs?",
+        description: "You have the choice to partner with leading neuroscience institutions for collaborative research. How do you proceed with the gender and ethnic insclusions in these instutions?",
         options: [
             {
                 text: "Option 1: Partner with prestigious institutions for advanced research collaboration while engaging with diverse stakeholders.",
                 points: 5,
-                impact: "Collaboration with prestigious institutions accelerates research and development while actively including diverse stakeholder viewpoints."
+                impact: "Scenario 2 Option 1:Collaboration with prestigious institutions accelerates research and development while actively including diverse stakeholder viewpoints."
             },
             {
-                text: "Option 2: Opt for in-house research to maintain full control, regularly organizing group deliberation on societal and ethical aspects.",
+                text: "Option 2: I would Opt for themselves(Let the instiution decide themselves) to maintain full control, regularly organizing group deliberation on societal and ethical aspects.",
                 points: 3,
-                impact: "In-house research provides control but may limit external expertise, with active internal engagement on societal and ethical dimensions."
+                impact: "Scenario 2 Option 2:In-house research provides control but may limit external expertise, with active internal engagement on societal and ethical dimensions."
             },
             {
-                text: "Option 3: Undecided and require more information, applying risk identification and risk management strategies.",
+                text: "Option 3: It is better to leave it undecided as it requires more information than applying risk identification and risk management strategies.",
                 points: 2,
-                impact: "Undecided choices may lead to delays but involve risk management strategies for responsible innovation."
+                impact: "Scenario 2 Option 3:Undecided choices may lead to delays but involve risk management strategies for responsible innovation."
             }
         ]
     },
@@ -50,17 +50,17 @@ const scenarios = [
             {
                 text: "Option 1: Offer affordable pricing and subsidies to reach a wider population, considering environmental and social sustainability.",
                 points: 5,
-                impact: "Affordable pricing and subsidies enhance accessibility while promoting environmental and social sustainability."
+                impact: "Scenario 3 Option 1:Affordable pricing and subsidies enhance accessibility while promoting environmental and social sustainability."
             },
             {
                 text: "Option 2: Set a premium price for exclusivity. Actively communicate research results within stakeholder networks.",
                 points: 3,
-                impact: "A premium price may limit accessibility but ensures exclusivity, with active communication of results for societal benefits."
+                impact: "Scenario 3 Option 2:A premium price may limit accessibility but ensures exclusivity, with active communication of results for societal benefits."
             },
             {
                 text: "Option 3: Not focused on affordability, prioritize innovation and resource use efficiency.",
                 points: 2,
-                impact: "Lack of affordability focus may limit market reach but spurs innovation and resource use efficiency."
+                impact: "Scenario 3 Option 3:Lack of affordability focus may limit market reach but spurs innovation and resource use efficiency."
             }
         ]
     }
