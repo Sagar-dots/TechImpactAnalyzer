@@ -1,67 +1,68 @@
 const scenarios = [
     {
-        question: "Scenario 1: Secure Communications",
-        description: "You are working on implementing quantum computing to enhance secure communications. Quantum encryption has the potential to revolutionize data security. What approach will you take?",
+        question: "Scenario 1: Quantum Data Security",
+        description: "You are at the forefront of quantum computing for enhancing data security. Quantum encryption has the potential to revolutionize secure communications. How will you ensure responsible innovation and gender equality?",
         options: [
             {
-                text: "Option 1: Focus on quantum encryption development.",
+                text: "Option 1: Focus on quantum encryption development with a diverse research team and ethical guidelines.",
                 points: 5,
-                impact: "Focusing on quantum encryption development strengthens data security."
+                impact: "Scenario 1, Option 1: Focusing on quantum encryption development with diversity in the research team and ethical guidelines ensures data security and gender equality."
             },
             {
-                text: "Option 2: Collaborate with experts to refine the encryption technology.",
+                text: "Option 2: Collaborate with experts to refine encryption technology, integrating gender dimensions into research and innovation outcomes.",
+                points: 4,
+                impact: "Scenario 1, Option 2: Collaboration with experts and gender-inclusive research promotes responsible quantum encryption and gender equality."
+            },
+            {
+                text: "Option 3: Prioritize testing quantum communication networks while promoting public awareness campaigns and involving diverse stakeholders.",
                 points: 3,
-                impact: "Collaboration with experts accelerates encryption technology refinement."
-            },
-            {
-                text: "Option 3: Prioritize testing quantum communication networks.",
-                points: 2,
-                impact: "Prioritizing testing helps in identifying network vulnerabilities."
+                impact: "Scenario 1, Option 3: Prioritizing testing helps identify vulnerabilities and engages diverse stakeholders, raising awareness of gender equality."
             }
         ]
     },
     {
         question: "Scenario 2: Quantum Computing Ethics",
-        description: "You are responsible for addressing ethical considerations related to quantum computing. Ethical concerns include potential misuse and consequences of quantum computing. What will you do?",
+        description: "You are responsible for addressing ethical considerations related to quantum computing. Ethical concerns encompass potential misuse and consequences of quantum computing. What actions will you take?",
         options: [
             {
-                text: "Option 1: Establish ethical guidelines and policies.",
+                text: "Option 1: Establish stringent ethical guidelines and policies with a focus on gender equality in project participation.",
                 points: 5,
-                impact: "Establishing guidelines and policies ensures responsible quantum computing."
+                impact: "Scenario 2, Option 1: Establishing stringent ethical guidelines with gender equality ensures responsible quantum computing and ethical standards."
             },
             {
-                text: "Option 2: Collaborate with ethicists and industry leaders to set ethical standards.",
+                text: "Option 2: Collaborate with ethicists, industry leaders, and gender advocacy groups to set comprehensive ethical standards for quantum computing.",
                 points: 4,
-                impact: "Collaboration with experts strengthens ethical standards."
+                impact: "Scenario 2, Option 2: Collaboration with experts and gender advocacy groups strengthens ethical standards, promoting responsible quantum technology and gender equality."
             },
             {
-                text: "Option 3: Conduct public awareness campaigns about quantum ethics.",
+                text: "Option 3: Conduct extensive public awareness campaigns about quantum ethics, actively engaging diverse stakeholders, including the public.",
                 points: 3,
-                impact: "Public awareness campaigns promote responsible quantum technology usage."
+                impact: "Scenario 2, Option 3: Public awareness campaigns raise awareness of ethical use and engage diverse stakeholders, promoting responsible quantum technology and gender equality."
             }
         ]
     },
     {
         question: "Scenario 3: Quantum Computing Collaboration",
-        description: "You have the opportunity to partner with quantum computing experts from around the world. Collaboration can accelerate advancements but may also involve complex negotiations. What's your decision?",
+        description: "You have the opportunity to collaborate with quantum computing experts from around the world. Collaboration can accelerate advancements but may involve complex negotiations. How will you approach collaboration while ensuring inclusiveness?",
         options: [
             {
-                text: "Option 1: Collaborate with experts to drive quantum research and development.",
+                text: "Option 1: Collaborate with global experts to drive quantum research and development, with a commitment to diversity in project participation.",
                 points: 5,
-                impact: "Collaboration accelerates research and development."
+                impact: "Scenario 3, Option 1: Global collaboration accelerates research with a commitment to diversity, ensuring inclusiveness and innovation."
             },
             {
-                text: "Option 2: Form strategic alliances for specific projects.",
+                text: "Option 2: Form strategic alliances for specific projects, actively engaging diverse stakeholders, including underrepresented groups.",
                 points: 4,
-                impact: "Strategic alliances allow for project-specific expertise."
+                impact: "Scenario 3, Option 2: Strategic alliances for specific projects with diverse stakeholder engagement ensure inclusiveness and project-specific expertise."
             },
             {
-                text: "Option 3: Continue with in-house development and research.",
+                text: "Option 3: Continue with in-house development and research, maintaining control but without external insights.",
                 points: 3,
-                impact: "In-house development maintains full control but may limit resources."
+                impact: "Scenario 3, Option 3: In-house development maintains control but may limit external expertise and inclusiveness."
             }
         ]
     }
+    // Add more scenarios as needed
 ];
 
 const questionsContainer = document.getElementById("questions-container");
